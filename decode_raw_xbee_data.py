@@ -48,8 +48,20 @@ def main():
             print("TORQUE SHUDDER: " + str(int(hex(raw_data[3][6:8])) / 10.) + " Nm")
         elif (raw_data[1] == "A3"):
             #MC Analog Inputs Voltages, ID_MC_ANALOG_INPUTS_VOLTAGES
+            print("ANALOG INPUT 1: " + str(int(hex(raw_data[3][0:2])) / 1.) + " V")
+            print("ANALOG INPUT 2: " + str(int(hex(raw_data[3][2:4])) / 1.) + " V")
+            print("ANALOG INPUT 3: " + str(int(hex(raw_data[3][4:6])) / 1.) + " V")
+            print("ANALOG INPUT 4: " + str(int(hex(raw_data[3][6:8])) / 1.) + " V")
         elif (raw_data[1] == "A4"):
             #A4: MC Digital Input Status, ID_MC_DIGITAL_INPUT_STATUS
+            print("DIGITAL INPUT 1: " + raw_data[3][0])
+            print("DIGITAL INPUT 2: " + raw_data[3][1])
+            print("DIGITAL INPUT 3: " + raw_data[3][2])
+            print("DIGITAL INPUT 4: " + raw_data[3][3])
+            print("DIGITAL INPUT 5: " + raw_data[3][4])
+            print("DIGITAL INPUT 6: " + raw_data[3][5])
+            print("DIGITAL INPUT 7: " + raw_data[3][6])
+            print("DIGITAL INPUT 8: " + raw_data[3][7])
         elif (raw_data[1] == "A5"):
             #A5: MC Motor Position Information, ID_MC_MOTOR_POSITION_INFORMATION
             print("MOTOR ANGLE: " + str(int(hex(raw_data[3][0:2]) / 10.)))
@@ -70,8 +82,19 @@ def main():
             print("PHASE BC VOLTAGE: " + str(int(hex(raw_data[3][6:8])) / 10.) + " V")
         elif (raw_data[1] == "A8"):
             #A8: MC Flux Information, ID_MC_FLUX_INFORMATION
+            print("MODULATION INDEX: " + str(int(hex(raw_data[3][0:2]))))
+            print("FLUX WEAKENING OUTPUT: " + str(int(hex(raw_data[3][2:4]))))
+            print("ID COMMAND: " + str(int(hex(raw_data[3][4:6]))))
+            print("IQ COMMAND: " + str(int(hex(raw_data[3][6:8]))))
         elif (raw_data[1] == "A9"):
             #A9: MC Internal Voltages, ID_MC_INTERNAL_VOLTAGES
+            print("VSM STATE: " + str(int(hex(raw_data[3][0:2]))))
+            print("INVERTER STATE: " + str(int(hex(raw_data[3][2]))))
+            print("RELAY STATE: " + str(int(hex(raw_data[3][3]))))
+            print("INVERTER RUN MODE DISCHARGE STATE: " + str(int(hex(raw_data[3][4]))))
+            print("INVERTER COMMAND MODE: " + str(int(hex(raw_data[3][5]))))
+            print("INVERTER ENABLE: " + str(int(hex(raw_data[3][6]))))
+            print("DIRECTION COMMAND: " + str(int(hex(raw_data[3][7]))))
         elif (raw_data[1] == "AA"):
             #AA: MC Internal States: ID_MC_INTERNAL_STATES
             print("VSM STATE: " + str(int(raw_data[3][0:2])))
@@ -164,19 +187,21 @@ def main():
             print("BMS CURRENT: " + str(int(hex(raw_data[3][3:5])) / 100.) + " A")
         print("___________________________________")
         elif (raw_data[1] == "DC"):
-            #stuff
+            #DC: FH Watchdog Test, ID_FH_WATCHDOG_TEST
         elif (raw_data[1] == "DD"):
-            #stuff
+            #DD: Charge Control Unit Status, ID_CCU_STATUS
         elif (raw_data[1] == "DE"):
             #DE: BMS Balancing Status, ID_BMS_BALANCING_STATUS
         elif (raw_data[1] == "DF"):
             #DF: ID_FCU_ACCELEROMETER
         elif (raw_data[1] == "E1"):
             #E1: ID_BMS_PARAMETER_RESPONSE
+        elif (raw_data[1] == "E2"):
+            #E2: BMS Coulomb Counts, ID_BMS_COULOMB_COUNTS
         elif (raw_data[1] == "E7"):
-            #stuff
+            #E7: ID_ECU_GPS_READINGS_ALPHA
         elif (raw_data[1] == "E8"):
-            #stuff
+            #E8: ID_ECU_GPS_READINGS_BETA 
         elif (raw_data[1] == "E9"):
             #stuff
     f.close()
