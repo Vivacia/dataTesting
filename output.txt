@@ -1,0 +1,298 @@
+Encoded frame: 20 19 05 02 10 17 26 54 74 75 DE 00 00 00 00 00
+Decode failed: not enough input bytes for length code
+----------------
+Encoded frame: 20 19 05 02 10 17 26 54 83 51 DE 01 00 00 00 00
+Decode failed: not enough input bytes for length code
+----------------
+Malformed frame len 34 encountered - skipping
+----------------
+Malformed frame len 30 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 34 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 34 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 34 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+----------------
+Malformed frame len 38 encountered - skipping
+
+
+
+
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,A5,8,FB0A000000004911
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,A4,8,0000000000000000
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,A3,8,ED29D31EEEB9F71E
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,AD,8,0000000000000000
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,AC,8,00000000D0000000
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,AB,8,0000000000000000
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,AA,8,0400090000000001
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,A8,8,1A00DF6D02000100
+
+----------------
+Malformed frame len 29 encountered - skipping
+1579457380,A7,8,1F000000FEFFF6FF
+
+
+
+
+
+before: 1579457383,E9,8,0007000700000000
+
+after: 1579457383E980007000700000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AD,8,FFFF000000000000
+
+after: 1579457383AD8FFFF000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AC,8,00000200D2040000
+
+after: 1579457383AC800000200D2040000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AB,8,0000000000000000
+
+after: 1579457383AB80000000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AA,8,0400090000000001
+
+after: 1579457383AA80400090000000001
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A8,8,1A00DF6D02000500
+
+after: 1579457383A881A00DF6D02000500
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AD,8,FFFF000000000000
+
+after: 1579457383AD8FFFF000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AC,8,00000000D5040000
+
+after: 1579457383AC800000000D5040000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AB,8,0000000000000000
+
+after: 1579457383AB80000000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AA,8,0400090000000001
+
+after: 1579457383AA80400090000000001
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A8,8,1A00DF6D02000200
+
+after: 1579457383A881A00DF6D02000200
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A7,8,20000000F9FFF3FF
+
+after: 1579457383A7820000000F9FFF3FF
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A6,8,FBFF0300FAFF0000
+
+after: 1579457383A68FBFF0300FAFF0000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A5,8,FC0A000000004E01
+
+after: 1579457383A58FC0A000000004E01
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A4,8,0000000000000000
+
+after: 1579457383A480000000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A3,8,ED29E31EEEB9F71E
+
+after: 1579457383A38ED29E31EEEB9F71E
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AD,8,FFFF000000000000
+
+after: 1579457383AD8FFFF000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AC,8,00000000D8040000
+
+after: 1579457383AC800000000D8040000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AB,8,0000000000000000
+
+after: 1579457383AB80000000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,AA,8,0400090000000001
+
+after: 1579457383AA80400090000000001
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A8,8,1A00DF6DFCFF0000
+
+after: 1579457383A881A00DF6DFCFF0000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579457383,A7,8,1C000000F9FFFCFF
+
+
+
+
+
+before: 1579451099,A6,8,0500FDFF00000000
+
+after: 1579451099A680500FDFF00000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,A5,8,0207000000002905
+
+after: 1579451099A580207000000002905
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,A4,8,0000000000000000
+
+after: 1579451099A480000000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,A3,8,ED0DE31EEEB9F71E
+
+after: 1579451099A38ED0DE31EEEB9F71E
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,AD,8,FFFF000000000000
+
+after: 1579451099AD8FFFF000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,AC,8,0000010025030000
+
+after: 1579451099AC80000010025030000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,AB,8,0000000000000000
+
+after: 1579451099AB80000000000000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,AA,8,0400090000000001
+
+after: 1579451099AA80400090000000001
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,A8,8,1A00312A00000300
+
+after: 1579451099A881A00312A00000300
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,A7,8,20000000F9FFF6FF
+
+after: 1579451099A7820000000F9FFF6FF
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,A6,8,FCFF020003000000
+
+after: 1579451099A68FCFF020003000000
+Malformed frame len 29 encountered - skipping
+----------------
+before: 1579451099,A5,8,0207000000002A05
+
+after: 1579451099A580207000000002A05
+Malformed frame len 29 encountered - skipping
+
+
+
+1579451099,A4,8,0000000000000000
+1579451099,A5,8,0207000000002A05
+1579451099,AD,8,0000000000000000
+
+1579451099,AC,8,0000010088030000
+
+1579451099,AB,8,0000000000000000
+
+1579451099,AA,8,0400090000000001
+
+1579451099,A8,8,1A00312AFDFF0300
+
+1579451099,A7,8,1E000000FCFFF6FF
+
+1579451099,A6,8,FCFFFFFFFEFF0000
+
+1579451099,A5,8,0207000000003005
+
+1579451099,A4,8,0000000000000000
+
+1579451099,A3,8,ED11E31EEEB9F71E
+
+1579451099,AD,8,FFFF000000000000
+
+1579451099,AC,8,000000008B030000
+
+1579451099,AB,8,0000000000000000
+
+1579451099,AA,8,0400090000000001
+
+1579451099,A8,8,1A00312AFEFF0000
+
+1579451099,A7,8,1E000000F9FFF3FF
+
+1579451099,A6,8,0400FCFF00000000
+
+1579451099,A5,8,0207000000002F05
+
+1579451099,A4,8,0000000000000000
+
+1579451099,A3,8,ED11E31EEEB9F71E
+
+1579451099,AD,8,0000000000000000
